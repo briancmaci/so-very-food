@@ -1,0 +1,317 @@
+@font-face
+{
+	font-family: svfFont;
+	src: url('../fonts/svf_font.woff'),
+		 url('../fonts/svf_font.ttf'),
+     	 url('../fonts/svf_font.eot'); /* IE9 */
+}
+
+@font-face
+{
+	font-family: tickerFont;
+	src: url('../fonts/svf_ticker_font.woff'),
+		 url('../fonts/svf_ticker_font.ttf'),
+     	 url('../fonts/svf_ticker_font.eot'); /* IE9 */
+}
+
+div
+{
+	font-family:svfFont;
+}
+
+body
+{
+    margin: 0px;
+    width:100%;
+}
+
+ul
+{
+	padding-left:0px;
+}
+
+.svf_container
+{
+	
+}
+
+.svf_header
+{
+	height:6px;
+	background-color: #000000;
+	margin-bottom:32px;
+}
+
+.svf_video
+{
+	width:800px;
+	margin:0 auto;
+	padding-top:20px;
+	display:block;
+	position:relative;
+	max-width:100%;
+	height:auto;
+}
+.svf_logo
+{ 
+	width:25%; 
+	max-width:592px;
+	margin:0 auto 20px auto;
+} 
+
+.svf_logo img
+{ 
+	width: 100%;
+}
+
+.svf_foodculture
+{ 
+	width:40%; 
+	max-width:498px;
+	margin:0 auto 12px;
+} 
+
+.svf_foodculture img
+{ 
+	width: 100%;
+}
+
+.svf_features
+{
+	text-transform:uppercase;
+	color: #636363;
+	font-size:12px;
+	width:100%;
+}
+
+.svf_countdown_header
+{
+	text-transform:uppercase;
+	color: #000000;
+	font-size:12px;
+	width:70%;
+	padding-top:10px;
+	text-align: center;
+	margin:0 auto;
+}
+
+.svf_countdown_header a
+{
+	color: #FF0054;
+	text-decoration:none;
+}
+
+.svf_countdown_header a:hover
+{
+	color:#636363;
+}
+
+.svf_kickstarter_link
+{
+	width:380px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	padding-top:20px;
+}
+
+.svf_kickstarter_link a
+{
+	text-decoration: none;
+	color:#ff0054;
+}
+
+.svf_kickstarter_link a:hover
+{
+	color:#636363;
+}
+
+.svf_features li
+{
+	display:inline;
+	float:left;
+	margin:0px 12px;
+	font-family:svfFont;
+}
+
+.svf_info
+{
+	text-transform:uppercase;
+	color: #636363;
+	font-size:12px;
+	width:100%;
+}
+
+.svf_info li
+{
+	display:inline;
+	float:left;
+	margin:0px 4px;
+	font-family:svfFont;
+}
+
+.svf_info li a
+{
+	text-decoration: none;
+	color:#636363;
+}
+
+.svf_info li a:hover
+{
+	text-decoration: none;
+	color:#ff0054;
+}
+
+.svf_social
+{
+	width:100%;
+	padding-bottom:60px;
+}
+
+.svf_social li
+{
+	display:inline;
+	float:left;
+	margin:0px 4px;
+}
+
+.svf_social li a
+{
+	opacity:0.6;
+}
+
+.svf_social li a:hover
+{
+	opacity:1;
+}
+
+.svf_info #pink
+{
+	color:#ff0054;
+}
+
+.svf_info #light_gray
+{
+	color:#adadad;
+}
+
+.svf_video_header
+{
+	margin:0 auto;
+	text-decoration: none;
+	color:#636363;
+}
+
+.svf_video_header:hover
+{
+	color:#ff0054;
+}
+
+.svf_video iframe
+{
+
+}
+
+.svf_video_copy
+{
+	font-size: 24px;
+	text-align: center;
+	padding-top:22px;
+}
+
+.svf_video_copy.trailer
+{
+	padding-top:8px;
+}
+
+.svf_kickstarter_logo
+{
+	text-align: center;
+}
+
+.svf_kickstarter_logo img
+{
+	min-width:280px;
+	max-width:35%;
+}
+
+.svf_horizontal_container
+{
+	display:table;
+	margin:0 auto;
+}
+
+.svf_ticker_holder
+{
+	width:300px;
+	height:156px;
+	background-image:url('../img/countdown_frame.png');
+	margin:14px auto 20px auto;
+}
+
+.svf_days
+{
+	font-family: tickerFont;
+	font-size: 80px;
+	display:inline-block;
+	margin-top:12px;
+	margin-left:30px;
+	width:128px;
+	text-align:center;
+}
+
+.svf_hours
+{
+	font-family: tickerFont;
+	font-size: 80px;
+	display:inline-block;
+	margin-top:12px;
+	width:128px;
+	text-align:center;
+}
+
+.svf_ticker_title
+{
+	width:350px;
+	font-family:tickerFont;
+	font-size:18px;
+	padding-top:14px;
+	margin:0 auto;
+	text-align:center;
+	color:#000000;
+}
+
+.svf_end_date
+{
+	width:320px;
+	font-family:tickerFont;
+	font-size:14px;
+	padding-bottom:4px;
+	margin:0 auto;
+	text-align:center;
+	color:#000000;
+}
+
+.svf_video_hashtag
+{
+	width:320px;
+	font-family:tickerFont;
+	font-size:14px;
+	padding: 6px 0 4px;
+	margin:0 auto;
+	text-align:center;
+	color:#ff0054;
+}
+
+.svf_splash_pinline
+{
+	width:66%;
+	height:1px;
+	background-color:#999999;
+	margin:10px auto 2px;
+}
+
+.svf_counter_text
+{
+	font-family: tickerFont;	
+}
